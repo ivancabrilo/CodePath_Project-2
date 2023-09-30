@@ -1,0 +1,94 @@
+
+ body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: lightblue; 
+}
+
+#root, .App {
+  height: 100%;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column; /* Stacks children vertically!!! */
+  align-items: center;
+  height: 100vh; /* This line makes sure .App takes the full height of the viewport!!! */
+  background-color: lightcoral; 
+  padding-top: 20px; 
+}
+
+header {
+
+  text-align: center;
+  background-color: lightblue; 
+  border-radius: 8px;
+  padding: 20px;
+  width: 60%; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin-top: 80px;
+  border-radius: 25px;
+
+}
+
+#subtitle h2{
+ padding-bottom: 15px;
+ padding-top: 10px;
+ margin: 0;
+}
+#subtitle h3 {padding-top:5px;
+
+  margin: 0; 
+  margin-bottom: 10px;
+}
+
+
+
+.flashcard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.flashcard {
+  width: 500px;
+  height: 300px;
+  border: 5px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8e94798;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size:35px;
+  font-family: sans-serif;
+  color:cornflowerblue;
+  
+}
+
+button {
+  margin-top: 20px; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #008CBA;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  font-size: large;
+  
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+.flashcard:hover {
+  background-color: lightsalmon;
+}
